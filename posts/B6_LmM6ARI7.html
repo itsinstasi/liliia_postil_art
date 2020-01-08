@@ -1,14 +1,16 @@
 ﻿<!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <title>art</title>
-    <meta name="title" content="art">
+    <title></title>
     
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
     <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
 	<link rel="stylesheet" href="../css/style.css"/>
+    
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
     
     <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
@@ -16,10 +18,10 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../img/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../img/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
@@ -27,9 +29,23 @@
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
+    
+    <link rel="image_src" href="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/80562086_747667952392518_2647551058091193058_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=PhLtatwCaSQAX_gL4TD&oh=bcf351c2864741952bee83125f6022ea&oe=5E8E61A0" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://liliia-postil-art.itsinsta.site/posts/B6_LmM6ARI7.html" />
+    <meta property="og:image" content="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/80562086_747667952392518_2647551058091193058_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=PhLtatwCaSQAX_gL4TD&oh=bcf351c2864741952bee83125f6022ea&oe=5E8E61A0" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1080"/>
+    <meta property="og:image:height" content="1350"/>
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:locale" content="Ru-ru" />
+    <meta property="og:site_name" content="liliia_postil_art" />
 
 	<!--modernizr-->
 	<script src="../js/vendors/modernizr-custom.js"></script>
+
 
 </head>
 <body>
@@ -42,7 +58,7 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
@@ -52,12 +68,6 @@
 						</a>
 						<div class="header__title">Liliia Postil/ART🎨</div>
 					</div>
-					<!--<div class="header__right">
-						<form action="#" method="get" class="search">
-							<input type="search" class="input search__input" placeholder="Поиск">
-							<button class="btn search__btn" type="submit" title="Искать"><i class="fa fa-search" aria-hidden="true"></i></button>
-						</form>
-					</div>-->
 				</div>
 			</div>
 		</header>	
@@ -65,11 +75,13 @@
 			<section class="big-banner" style="background-image: url(.././img/landing.jpg);">
 				<div class="container">
 					<div class="big-banner__wrapper">
-						<h1 class="big-banner__title">art</h1>
-						<div class="big-banner__bar">
+						<h1 class="big-banner__title"></h1>
+						<div class="big-banner__bar"
+>
 							<div class="main-sec__contacts">
 								<div class="main-sec__contacts-wrap" id="js-cont-list">
-									<div class="main-sec__contacts-btn" id="js-cont-list-btn" onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
+									<div class="main-sec__contacts-btn" id="js-cont-list-btn" 
+										onclick="document.getElementById('js-cont-list').classList.toggle('open');">Сообщение</div>
 									<ul class="main-sec__contacts-list">
 										<li><a href="https://www.instagram.com/liliia_postil_art" 
 										target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
@@ -87,7 +99,7 @@
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="stories__slide" title="вифлеем">
-										<a href="./vifleem.html">
+										<a href="../tags/./vifleem.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/vifleem.png);"></div>
 											<div class="stories__slide-txt">вифлеем</div>
 										</a>
@@ -95,7 +107,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="палестина">
-										<a href="./palestina.html">
+										<a href="../tags/./palestina.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/palestina.png);"></div>
 											<div class="stories__slide-txt">палестина</div>
 										</a>
@@ -103,7 +115,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="иерусалим">
-										<a href="./ierusalim.html">
+										<a href="../tags/./ierusalim.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/ierusalim.png);"></div>
 											<div class="stories__slide-txt">иерусалим</div>
 										</a>
@@ -111,7 +123,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="храмгробагосподня">
-										<a href="./khramgrobagospodnya.html">
+										<a href="../tags/./khramgrobagospodnya.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/khramgrobagospodnya.png);"></div>
 											<div class="stories__slide-txt">храмгробагосподня</div>
 										</a>
@@ -119,7 +131,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="иерусалим старыйгород">
-										<a href="./ierusalim-staryygorod.html">
+										<a href="../tags/./ierusalim-staryygorod.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/ierusalim-staryygorod.png);"></div>
 											<div class="stories__slide-txt">иерусалим старыйгород</div>
 										</a>
@@ -127,7 +139,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="art">
-										<a href="./art.html">
+										<a href="../tags/./art.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/art.png);"></div>
 											<div class="stories__slide-txt">art</div>
 										</a>
@@ -135,7 +147,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="art ist">
-										<a href="./art-ist.html">
+										<a href="../tags/./art-ist.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/art-ist.png);"></div>
 											<div class="stories__slide-txt">art ist</div>
 										</a>
@@ -143,7 +155,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="comics">
-										<a href="./comics.html">
+										<a href="../tags/./comics.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/comics.png);"></div>
 											<div class="stories__slide-txt">comics</div>
 										</a>
@@ -151,7 +163,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="графіка">
-										<a href="./grafіka.html">
+										<a href="../tags/./grafіka.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/grafіka.png);"></div>
 											<div class="stories__slide-txt">графіка</div>
 										</a>
@@ -159,7 +171,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="ілюстрації">
-										<a href="./іlyustratsії.html">
+										<a href="../tags/./іlyustratsії.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/іlyustratsії.png);"></div>
 											<div class="stories__slide-txt">ілюстрації</div>
 										</a>
@@ -167,7 +179,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="історіяукраїни">
-										<a href="./іstorіyaukraїni.html">
+										<a href="../tags/./іstorіyaukraїni.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/іstorіyaukraїni.png);"></div>
 											<div class="stories__slide-txt">історіяукраїни</div>
 										</a>
@@ -175,7 +187,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="повістьминулихліт">
-										<a href="./povіst-minulikhlіt.html">
+										<a href="../tags/./povіst-minulikhlіt.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/povіst-minulikhlіt.png);"></div>
 											<div class="stories__slide-txt">повістьминулихліт</div>
 										</a>
@@ -183,7 +195,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="rock">
-										<a href="./rock.html">
+										<a href="../tags/./rock.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/rock.png);"></div>
 											<div class="stories__slide-txt">rock</div>
 										</a>
@@ -191,7 +203,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="израиль">
-										<a href="./izrail-.html">
+										<a href="../tags/./izrail-.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/izrail-.png);"></div>
 											<div class="stories__slide-txt">израиль</div>
 										</a>
@@ -199,7 +211,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="концерт">
-										<a href="./kontsert.html">
+										<a href="../tags/./kontsert.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/kontsert.png);"></div>
 											<div class="stories__slide-txt">концерт</div>
 										</a>
@@ -207,7 +219,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="иордания">
-										<a href="./iordaniya.html">
+										<a href="../tags/./iordaniya.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/iordaniya.png);"></div>
 											<div class="stories__slide-txt">иордания</div>
 										</a>
@@ -215,7 +227,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="metallica">
-										<a href="./metallica.html">
+										<a href="../tags/./metallica.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/metallica.png);"></div>
 											<div class="stories__slide-txt">metallica</div>
 										</a>
@@ -223,7 +235,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="рекаиордан">
-										<a href="./rekaiordan.html">
+										<a href="../tags/./rekaiordan.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/rekaiordan.png);"></div>
 											<div class="stories__slide-txt">рекаиордан</div>
 										</a>
@@ -231,7 +243,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="мертвоеморе">
-										<a href="./mertvoemore.html">
+										<a href="../tags/./mertvoemore.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/mertvoemore.png);"></div>
 											<div class="stories__slide-txt">мертвоеморе</div>
 										</a>
@@ -239,7 +251,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="вифлеемская звезда">
-										<a href="./vifleemskaya-zvezda.html">
+										<a href="../tags/./vifleemskaya-zvezda.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/vifleemskaya-zvezda.png);"></div>
 											<div class="stories__slide-txt">вифлеемская звезда</div>
 										</a>
@@ -247,7 +259,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="местокрещенияхриста">
-										<a href="./mestokreshcheniyakhrista.html">
+										<a href="../tags/./mestokreshcheniyakhrista.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/mestokreshcheniyakhrista.png);"></div>
 											<div class="stories__slide-txt">местокрещенияхриста</div>
 										</a>
@@ -255,7 +267,7 @@
 								</div>
 								<div class="swiper-slide">
 									<div class="stories__slide" title="базиликарождества вифлеем">
-										<a href="./bazilikarozhdestva-vifleem.html">
+										<a href="../tags/./bazilikarozhdestva-vifleem.html">
 											<div class="stories__slide-pic" style="background-image: url(../img/og/bazilikarozhdestva-vifleem.png);"></div>
 											<div class="stories__slide-txt">базиликарождества вифлеем</div>
 										</a>
@@ -270,31 +282,122 @@
 			</div>
 			<nav class="breadcrumbs">
 				<div class="container">
-					<a href="../main.html">Главная</a> / <span>art</span>
+					<a href="../main.html">Главная</a> / <span></span>
 				</div>
 			</nav>
-			<div class="tag">
+			<article class="article">
 				<div class="container">
-					<div class="tag__group">
-						<div class="tag__item-list">
-							<a href="../posts/./xxs-ogodnі-ya-prezentuyu-sebe-yak-uchasnik.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/75642487_3513951165296718_112826641596894576_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=YC2Bs-YcUHoAX8bqYV1&oh=36feae453553495ed10b13a92ac27d94&oe=5EA76995" alt=""></div>
-								<div class="tag__item-desc">
-									<div class="tag__item-datas">
-										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2019-12-07">07 December 2019</time></div>
-										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>2</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
-									</div>
-									<div class="tag__item-txt">
-										<h2>💥Сьогодні я презентую себе як учасник-</h2>
-										<p>💥Сьогодні я презентую себе як учасник- ілюстратор Всеукраїнського історико-художнього проекту за підтримки Національного Києво-Печерського історико -культурного Заповідника «Повість Минулих Літ. Аскольд. Початок Русі. Мальована стрічка»💥<br/>🎨16 художників спільними зусиллями створили цей чудовий історичний комікс!🎨</p>
-										<p>...ЧИТАТЬ ДАЛЕЕ</p>
-									</div>
-								</div>
-							</a>
+					<div class="article__header">
+						<div class="article__datas">
+							<div class="article__datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2020-01-06">06 January 2020</time></div>
+							<a href="https://www.instagram.com/p/B6_LmM6ARI7/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</a>
+							<a href="https://www.instagram.com/p/B6_LmM6ARI7/" 
+								target="_blank" class="article__datas-item"><i class="fa fa-heart" aria-hidden="true"></i>20</a>
 						</div>
 					</div>
-				</div>
-			</div>			
+					<div class="article__wrap" id="ja-article-wrap">
+						<div class="article-main">
+							<div class="article-content">
+								<figure>
+									<img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/80562086_747667952392518_2647551058091193058_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=PhLtatwCaSQAX_gL4TD&oh=bcf351c2864741952bee83125f6022ea&oe=5E8E61A0" alt="">
+								</figure> 
+								<p></p> 
+							</div>
+						<div>
+							<a href="https://www.instagram.com/p/B6_LmM6ARI7/" 
+								target="_blank" class="links-page-btn shake"><strong>Комментировать</strong><small>Instagram</small>
+							</a>
+						</div>
+
+						</div>
+						<aside class="article-bar">
+							<h2 class="article-more__title">ПОХОЖИЕ</h2>
+							<div class="article-bar__tagsgroupe" id="js-tags">
+								<nav class="article-bar__tags">
+									<h3 class="article-bar__tags-title">
+										<a href=".././links.html">АКТУАЛЬНОЕ</a>
+										
+									</h3>
+									<ul class="article-bar__tags-list">
+									<li><a href="http://id5918liliiapostilart.nerve.ru/">Сайт</a></li>
+									</ul>
+								</nav>
+							</div>
+						</aside>
+					</div>
+					<section class="article-more">
+						<div class="container">
+							<h2 class="article-more__title">ПОПУЛЯРНЫЕ</h2>
+							<div class="article-more__list">
+								<a href="./ierusalim.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>14</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/81575277_443848943164660_5526559922933780752_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=Igu1JOKFuYEAX86Hw-J&oh=9fa64583f8bdad641578722f04d16c10&oe=5EA839D0" alt="Иерусалим.">
+									</div>
+									<div class="article-more__item-name">Иерусалим.</div>
+								</a>
+								<a href="./xxs-ogodnі-ya-prezentuyu-sebe-yak-uchasnik.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>2</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/75642487_3513951165296718_112826641596894576_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=106&_nc_ohc=YC2Bs-YcUHoAX8bqYV1&oh=36feae453553495ed10b13a92ac27d94&oe=5EA76995" alt="💥Сьогодні я презентую себе як учасник-">
+									</div>
+									<div class="article-more__item-name">💥Сьогодні я презентую себе як учасник-</div>
+								</a>
+								<a href="./granitsa-mezhdu-izrailem.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/80859585_225280785151327_1251260982742030260_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=JDmR1OfCHV4AX_tke37&oh=6a63ac15159a81c4ad02580614f6782f&oe=5EAA1FC0" alt="Граница между Израилем">
+									</div>
+									<div class="article-more__item-name">Граница между Израилем</div>
+								</a>
+								<a href="./mertvoe-more.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/80818295_457942905118111_5603954081839961431_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=xfMMvwShFf0AX95JTO8&oh=1b6518d41737ee7b20e2ee76ad3228f9&oe=5E9BA833" alt="Мертвое Море.">
+									</div>
+									<div class="article-more__item-name">Мертвое Море.</div>
+								</a>
+								<a href="./derevyannaya-skul-ptura-georgiya.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/79535858_298339774456180_3804455103563553969_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=WfN5NOCCk08AX_zGb68&oh=c183083a20cc9a89ee58ded10327b79f&oe=5E9872D6" alt="Деревянная скульптура Георгия">
+									</div>
+									<div class="article-more__item-name">Деревянная скульптура Георгия</div>
+								</a>
+								<a href="./xxmerry-christmas.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/76858150_1555185137963659_2146886720393226064_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=v4vVK80mSUoAX81iQV2&oh=baf8d37a89b13b927223f1e93c3daea0&oe=5E9D1522" alt="❤️Merry Christmas!">
+									</div>
+									<div class="article-more__item-name">❤️Merry Christmas!</div>
+								</a>
+								<a href="./esli-by-ya-byla-pevitseyxto-only-rock-xx.html" class="article-more__item">
+									<div class="article-more__item-pic">
+										<div class="article-more__item-pic-blind">
+											<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>0</span>
+										</div>
+										<img class="js-now-lazy" src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/75341361_208993693454363_402338988287996967_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=lOijqujPV44AX8rZJHI&oh=ab5b7a5316c04e1bc1b3070715a1f0a0&oe=5EAEA65D" alt="Если бы я была певицей,то only Rock 🤘">
+									</div>
+									<div class="article-more__item-name">Если бы я была певицей,то only Rock 🤘</div>
+								</a>
+							</div>
+						</div>
+					</section>		
+				</div>			
+			</article>			
 		</div>			
 		<div class="banner">
 			<div class="banner__overlay" id="js-banner-overlay" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');"></div>
@@ -328,7 +431,7 @@
 
 				</div>
 			</div>
-		</div>			
+		</div>		
 	</div>
 	<!--swiper-->
 	<script src="../js/vendors/swiper.min.js"></script>
