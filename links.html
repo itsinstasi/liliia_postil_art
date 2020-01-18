@@ -62,13 +62,13 @@
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="./" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/81309201_610520989682383_450432401655463936_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=pArdErZzJEAAX8aAkph&oh=f86b2074136869249d905f8ae169ce01&oe=5EDAB371" alt="Liliia Postil"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/81309201_610520989682383_450432401655463936_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=XsjbraVy48gAX82HtlK&oh=f29838825820dff01c6a3c30d0da71d9&oe=5EDAB371" alt="Liliia Postil"></div>
 							<div class="header__logo-txt">liliia_postil_art</div>
 						</a>
 						<div class="header__title">Liliia Postil/ART🎨</div>
 					</div>
 					<div id="settingsContainer" class="header__right" style="display:none">
-						<button onclick="window.open('http://itsinsta.site/page.html?project=liliia_postil_art');" class="btn stories-popup__buy">Настроить</button>
+						<button onclick="window.open('http://itsinsta.site/page.html?project=liliia_postil_art', '_self');" class="btn stories-popup__buy">Настроить</button>
 					</div>
 				</div>
 			</div>
@@ -171,7 +171,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 $(document).ready(function(){
 	var lid = getUrlParameter("lid");
-	if (lid) {
+	if (lid && lid != "true") {
         localStorage.setItem("hasToken", true);
 
 		$("#settingsContainer").show();
